@@ -1,5 +1,1658 @@
 {
   "packages": {
+    "bioconductor-acde-1.6.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.3,<3.4",
+        "r-boot >=1.3"
+      ]
+    },
+    "bioconductor-acgh-1.54.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "bioconductor-multtest",
+        "r-base >=2.10,<2.11",
+        "r-cluster",
+        "r-survival"
+      ]
+    },
+    "bioconductor-acme-2.32.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase >=2.5.5",
+        "bioconductor-biocgenerics",
+        "r-base >=2.10,<2.11"
+      ]
+    },
+    "bioconductor-affxparser-1.48.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.14,<2.15"
+      ]
+    },
+    "bioconductor-affy-1.54.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-affyio >=1.13.3",
+        "bioconductor-biobase >=2.5.5",
+        "bioconductor-biocgenerics >=0.1.12",
+        "bioconductor-biocinstaller",
+        "bioconductor-preprocesscore",
+        "bioconductor-zlibbioc",
+        "r-base >=2.8,<2.9"
+      ]
+    },
+    "bioconductor-affycomp-1.52.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase >=2.3.3",
+        "r-base >=2.13,<2.14"
+      ]
+    },
+    "bioconductor-affydata-1.24.0-1.tar.bz2": {
+      "depends": [
+        "bioconductor-affy >=1.23.4",
+        "r-base >=2.4,<2.5",
+        "wget"
+      ]
+    },
+    "bioconductor-affyio-1.46.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-zlibbioc",
+        "r-base >=2.6,<2.7"
+      ]
+    },
+    "bioconductor-affypdnn-1.50.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-affy >=1.5",
+        "r-base >=2.13,<2.14"
+      ]
+    },
+    "bioconductor-all-1.18.0-1.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase >=2.5.5",
+        "r-base >=2.10,<2.11",
+        "wget"
+      ]
+    },
+    "bioconductor-alpine-1.2.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biostrings",
+        "bioconductor-genomeinfodb",
+        "bioconductor-genomicalignments",
+        "bioconductor-genomicfeatures",
+        "bioconductor-genomicranges",
+        "bioconductor-graph",
+        "bioconductor-iranges",
+        "bioconductor-rbgl",
+        "bioconductor-rsamtools",
+        "bioconductor-s4vectors",
+        "bioconductor-summarizedexperiment",
+        "r-base >=3.3,<3.4",
+        "r-speedglm",
+        "r-stringr"
+      ]
+    },
+    "bioconductor-amountain-1.2.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.3,<3.4"
+      ]
+    },
+    "bioconductor-annotationfilter-1.0.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-genomicranges",
+        "r-base >=3.4,<3.5",
+        "r-lazyeval"
+      ]
+    },
+    "bioconductor-antiprofiles-1.16.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.0,<3.1",
+        "r-locfit >=1.5",
+        "r-matrixstats >=0.50.0"
+      ]
+    },
+    "bioconductor-aroma.light-3.6.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.15,<2.16",
+        "r-matrixstats >=0.52.1",
+        "r-r.methodss3 >=1.7.1",
+        "r-r.oo >=1.21.0",
+        "r-r.utils >=2.5.0"
+      ]
+    },
+    "bioconductor-arrayqualitymetrics-3.34.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-affy",
+        "bioconductor-affyplm >=1.27.3",
+        "bioconductor-beadarray",
+        "bioconductor-biobase",
+        "bioconductor-genefilter",
+        "bioconductor-limma",
+        "bioconductor-vsn >=3.23.3",
+        "r-base >=3.4,<3.5",
+        "r-cairo >=1.4-6",
+        "r-gridsvg >=1.4-3",
+        "r-hmisc",
+        "r-hwriter",
+        "r-lattice",
+        "r-latticeextra",
+        "r-rcolorbrewer",
+        "r-setrng",
+        "r-xml",
+        "xorg-libsm",
+        "xorg-libxext",
+        "xorg-libxrender"
+      ]
+    },
+    "bioconductor-asafe-1.2.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.2,<3.3"
+      ]
+    },
+    "bioconductor-aseb-1.20.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.8,<2.9"
+      ]
+    },
+    "bioconductor-atacseqqc-1.0.5-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biocgenerics",
+        "bioconductor-biostrings",
+        "bioconductor-bsgenome",
+        "bioconductor-chippeakanno",
+        "bioconductor-genomeinfodb",
+        "bioconductor-genomicalignments",
+        "bioconductor-genomicranges",
+        "bioconductor-genomicscores",
+        "bioconductor-iranges",
+        "bioconductor-limma",
+        "bioconductor-rsamtools",
+        "bioconductor-rtracklayer",
+        "bioconductor-s4vectors",
+        "r-base >=3.4,<3.5",
+        "r-randomforest",
+        "r-stringr"
+      ]
+    },
+    "bioconductor-atlasrdf-1.12.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.10,<2.11",
+        "r-hash",
+        "r-sparql"
+      ]
+    },
+    "bioconductor-bacon-1.4.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biocparallel",
+        "r-base >=3.3,<3.4",
+        "r-ellipse",
+        "r-ggplot2"
+      ]
+    },
+    "bioconductor-banocc-1.0.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.4,<3.5",
+        "r-coda >=0.18.1",
+        "r-mvtnorm",
+        "r-rstan >=2.10.1",
+        "r-stringr"
+      ]
+    },
+    "bioconductor-banocc-1.2.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.4,<3.5",
+        "r-coda >=0.18.1",
+        "r-mvtnorm",
+        "r-rstan >=2.10.1",
+        "r-stringr"
+      ]
+    },
+    "bioconductor-basespacer-1.20.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.15,<2.16",
+        "r-rcurl",
+        "r-rjsonio"
+      ]
+    },
+    "bioconductor-bayespeak-1.24.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-iranges",
+        "r-base >=2.14,<2.15"
+      ]
+    },
+    "bioconductor-bgeedb-2.2.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "bioconductor-graph",
+        "bioconductor-topgo",
+        "r-base >=3.3,<3.4",
+        "r-data.table",
+        "r-digest",
+        "r-dplyr",
+        "r-rcurl",
+        "r-tidyr"
+      ]
+    },
+    "bioconductor-bgmix-1.36.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.3,<2.4",
+        "r-kernsmooth"
+      ]
+    },
+    "bioconductor-biocfilecache-1.2.3-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.4,<3.5",
+        "r-dbi",
+        "r-dbplyr >=1.0.0",
+        "r-dplyr",
+        "r-httr",
+        "r-rappdirs",
+        "r-rsqlite"
+      ]
+    },
+    "bioconductor-biocinstaller-1.26.1-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.4,<3.5"
+      ]
+    },
+    "bioconductor-biocviews-1.44.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "bioconductor-graph >=1.9.26",
+        "bioconductor-rbgl >=1.13.5",
+        "r-base >=2.4,<2.5",
+        "r-rcurl",
+        "r-runit",
+        "r-xml",
+        "readline 6.2"
+      ]
+    },
+    "bioconductor-biocworkflowtools-1.2.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biocstyle",
+        "r-base >=3.3,<3.4",
+        "r-bookdown",
+        "r-httr",
+        "r-knitr",
+        "r-rmarkdown",
+        "r-stringr"
+      ]
+    },
+    "bioconductor-bubbletree-2.6.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "bioconductor-biocgenerics >=0.7.5",
+        "bioconductor-biocstyle",
+        "bioconductor-biovizbase",
+        "bioconductor-genomicranges",
+        "bioconductor-iranges",
+        "bioconductor-limma",
+        "r-base >=3.3,<3.4",
+        "r-dplyr",
+        "r-e1071",
+        "r-ggplot2",
+        "r-gridextra",
+        "r-gtable",
+        "r-gtools",
+        "r-magrittr",
+        "r-plyr",
+        "r-rcolorbrewer",
+        "r-writexls"
+      ]
+    },
+    "bioconductor-causalr-1.8.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.2,<3.3",
+        "r-igraph"
+      ]
+    },
+    "bioconductor-cellgrowth-1.20.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.12,<2.13",
+        "r-lattice",
+        "r-locfit >=1.5-4"
+      ]
+    },
+    "bioconductor-cfassay-1.10.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.10,<2.11"
+      ]
+    },
+    "bioconductor-chimeraviz-1.0.4-0.tar.bz2": {
+      "depends": [
+        "bioconductor-annotationdbi",
+        "bioconductor-annotationfilter",
+        "bioconductor-biobase",
+        "bioconductor-biocgenerics",
+        "bioconductor-biocstyle",
+        "bioconductor-biostrings",
+        "bioconductor-ensembldb",
+        "bioconductor-genomeinfodb",
+        "bioconductor-genomeinfodbdata",
+        "bioconductor-genomicalignments",
+        "bioconductor-genomicranges",
+        "bioconductor-graph",
+        "bioconductor-gviz",
+        "bioconductor-iranges",
+        "bioconductor-org.hs.eg.db",
+        "bioconductor-rgraphviz",
+        "bioconductor-rsamtools",
+        "bioconductor-s4vectors",
+        "pandoc",
+        "r-argumentcheck",
+        "r-base >=3.4,<3.5",
+        "r-dt",
+        "r-gridbase",
+        "r-gridextra",
+        "r-plyr",
+        "r-rcircos",
+        "r-rcolorbrewer",
+        "r-readr",
+        "r-rmarkdown"
+      ]
+    },
+    "bioconductor-chippeakanno-3.10.2-0.tar.bz2": {
+      "depends": [
+        "bioconductor-annotationdbi",
+        "bioconductor-biobase",
+        "bioconductor-biocgenerics >=0.1.0",
+        "bioconductor-biocinstaller",
+        "bioconductor-biomart",
+        "bioconductor-biostrings",
+        "bioconductor-bsgenome",
+        "bioconductor-delayedarray",
+        "bioconductor-ensembldb",
+        "bioconductor-genomeinfodb",
+        "bioconductor-genomicalignments",
+        "bioconductor-genomicfeatures",
+        "bioconductor-genomicranges >=1.23.16",
+        "bioconductor-go.db",
+        "bioconductor-graph",
+        "bioconductor-iranges >=2.5.27",
+        "bioconductor-limma",
+        "bioconductor-multtest",
+        "bioconductor-rbgl",
+        "bioconductor-regioner",
+        "bioconductor-rsamtools",
+        "bioconductor-s4vectors >=0.9.25",
+        "bioconductor-summarizedexperiment",
+        "r-base >=3.2,<3.3",
+        "r-dbi",
+        "r-idr",
+        "r-matrixstats",
+        "r-seqinr",
+        "r-venndiagram"
+      ]
+    },
+    "bioconductor-chipseeker-1.12.1-0.tar.bz2": {
+      "depends": [
+        "bioconductor-annotationdbi",
+        "bioconductor-biocgenerics",
+        "bioconductor-dose >=3.0.0",
+        "bioconductor-genomeinfodb",
+        "bioconductor-genomicfeatures",
+        "bioconductor-genomicranges",
+        "bioconductor-iranges",
+        "bioconductor-rtracklayer",
+        "bioconductor-s4vectors",
+        "bioconductor-txdb.hsapiens.ucsc.hg19.knowngene",
+        "r-base >=3.3,<3.4",
+        "r-boot",
+        "r-dplyr",
+        "r-ggplot2 >=2.2.0",
+        "r-gplots",
+        "r-gridbase",
+        "r-gtools",
+        "r-magrittr",
+        "r-plotrix",
+        "r-rcolorbrewer",
+        "r-upsetr"
+      ]
+    },
+    "bioconductor-chronos-1.4.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biomart",
+        "bioconductor-graph",
+        "bioconductor-rbgl",
+        "r-base >=3.3,<3.4",
+        "r-circlize",
+        "r-doparallel",
+        "r-foreach",
+        "r-openxlsx",
+        "r-rcurl",
+        "r-xml"
+      ]
+    },
+    "bioconductor-clusterprofiler-3.4.4-0.tar.bz2": {
+      "depends": [
+        "bioconductor-annotationdbi",
+        "bioconductor-dose >=3.1.3",
+        "bioconductor-go.db",
+        "bioconductor-gosemsim >=2.0.0",
+        "bioconductor-qvalue",
+        "r-base >=3.3,<3.4",
+        "r-ggplot2",
+        "r-magrittr",
+        "r-plyr",
+        "r-rvcheck",
+        "r-tidyr"
+      ]
+    },
+    "bioconductor-cner-1.12.1-0.tar.bz2": {
+      "depends": [
+        "bioconductor-annotate >=1.50.0",
+        "bioconductor-biocgenerics",
+        "bioconductor-biostrings >=2.33.4",
+        "bioconductor-genomeinfodb >=1.1.3",
+        "bioconductor-genomicalignments >=1.1.9",
+        "bioconductor-genomicranges >=1.23.16",
+        "bioconductor-go.db >=3.3.0",
+        "bioconductor-iranges >=2.5.27",
+        "bioconductor-keggrest >=1.14.0",
+        "bioconductor-rtracklayer >=1.25.5",
+        "bioconductor-s4vectors >=0.13.13",
+        "bioconductor-xvector >=0.5.4",
+        "r-base >=3.2,<3.3",
+        "r-dbi >=0.6",
+        "r-ggplot2 >=2.1.0",
+        "r-powerlaw >=0.60.3",
+        "r-r.utils >=2.3.0",
+        "r-readr >=0.2.2",
+        "r-reshape2 >=1.4.1",
+        "r-rsqlite >=0.11.4"
+      ]
+    },
+    "bioconductor-cntools-1.32.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-genefilter",
+        "r-base >=2.10,<2.11"
+      ]
+    },
+    "bioconductor-compepitools-1.10.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-annotationdbi",
+        "bioconductor-biocgenerics",
+        "bioconductor-biostrings",
+        "bioconductor-genomeinfodb",
+        "bioconductor-genomicfeatures",
+        "bioconductor-genomicranges",
+        "bioconductor-go.db",
+        "bioconductor-iranges",
+        "bioconductor-methylpipe",
+        "bioconductor-rsamtools",
+        "bioconductor-s4vectors",
+        "bioconductor-topgo",
+        "bioconductor-xvector",
+        "r-base >=3.1,<3.2",
+        "r-gplots"
+      ]
+    },
+    "bioconductor-complexheatmap-1.14.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.1,<3.2",
+        "r-circlize >=0.3.4",
+        "r-colorspace",
+        "r-dendextend >=1.0.1",
+        "r-getoptlong",
+        "r-globaloptions >=0.0.10",
+        "r-rcolorbrewer"
+      ]
+    },
+    "bioconductor-cqn-1.22.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-preprocesscore",
+        "r-base >=2.10,<2.11",
+        "r-mclust",
+        "r-nor1mix",
+        "r-quantreg"
+      ]
+    },
+    "bioconductor-csaw-1.10.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-annotationdbi",
+        "bioconductor-biocgenerics",
+        "bioconductor-biocparallel",
+        "bioconductor-edger",
+        "bioconductor-genomeinfodb",
+        "bioconductor-genomicfeatures",
+        "bioconductor-genomicranges",
+        "bioconductor-iranges",
+        "bioconductor-limma",
+        "bioconductor-rhtslib",
+        "bioconductor-rsamtools",
+        "bioconductor-s4vectors",
+        "bioconductor-summarizedexperiment >=1.2.0",
+        "r-base >=3.4,<3.5"
+      ]
+    },
+    "bioconductor-degseq-1.30.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-qvalue",
+        "r-base >=2.8,<2.9",
+        "r-samr"
+      ]
+    },
+    "bioconductor-delayedarray-0.2.7-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biocgenerics",
+        "bioconductor-iranges",
+        "bioconductor-s4vectors >=0.14.3",
+        "r-base >=3.4,<3.5",
+        "r-matrixstats"
+      ]
+    },
+    "bioconductor-diffbind-2.4.8-16.tar.bz2": {
+      "depends": [
+        "bioconductor-biocparallel",
+        "bioconductor-deseq2",
+        "bioconductor-edger",
+        "bioconductor-genomicalignments",
+        "bioconductor-genomicranges",
+        "bioconductor-iranges",
+        "bioconductor-limma",
+        "bioconductor-rsamtools",
+        "bioconductor-s4vectors",
+        "bioconductor-summarizedexperiment",
+        "bioconductor-systempiper",
+        "bioconductor-zlibbioc",
+        "r-amap",
+        "r-base >=3.3,<3.4",
+        "r-dplyr",
+        "r-ggplot2",
+        "r-ggrepel",
+        "r-gplots",
+        "r-lattice",
+        "r-locfit",
+        "r-rcolorbrewer",
+        "r-rcpp"
+      ]
+    },
+    "bioconductor-diffustats-0.102.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.4,<3.5",
+        "r-expm",
+        "r-igraph",
+        "r-mass",
+        "r-matrix",
+        "r-plyr",
+        "r-precrec",
+        "r-rcpp",
+        "r-rcpparmadillo",
+        "r-rcppparallel"
+      ]
+    },
+    "bioconductor-dnashaper-1.4.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biostrings",
+        "bioconductor-genomicranges",
+        "r-base >=3.3,<3.4",
+        "r-fields",
+        "r-rcpp >=0.12.1"
+      ]
+    },
+    "bioconductor-doppelgangr-1.4.1-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "bioconductor-biocparallel",
+        "bioconductor-impute",
+        "bioconductor-sva",
+        "r-base >=3.3,<3.4",
+        "r-digest",
+        "r-mnormt"
+      ]
+    },
+    "bioconductor-dupradar-1.6.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-rsubread >=1.14.1",
+        "r-base >=3.2,<3.3"
+      ]
+    },
+    "bioconductor-ebarrays-2.40.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "r-base >=1.8,<1.9",
+        "r-cluster",
+        "r-lattice"
+      ]
+    },
+    "bioconductor-ebseq-1.16.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.0,<3.1",
+        "r-blockmodeling",
+        "r-gplots",
+        "r-testthat"
+      ]
+    },
+    "bioconductor-fgsea-1.2.1-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biocparallel",
+        "r-base >=3.3,<3.4",
+        "r-data.table",
+        "r-fastmatch",
+        "r-ggplot2 >=2.2.0",
+        "r-gridextra",
+        "r-rcpp"
+      ]
+    },
+    "bioconductor-flowai-1.4.4-0.tar.bz2": {
+      "depends": [
+        "bioconductor-flowcore",
+        "r-base >=3.4,<3.5",
+        "r-changepoint",
+        "r-ggplot2",
+        "r-knitr",
+        "r-plyr",
+        "r-rcolorbrewer",
+        "r-reshape2",
+        "r-scales"
+      ]
+    },
+    "bioconductor-flowcl-1.14.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-graph",
+        "bioconductor-rgraphviz",
+        "r-base >=3.3,<3.4",
+        "r-sparql"
+      ]
+    },
+    "bioconductor-gagedata-2.14.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.10,<2.11",
+        "wget"
+      ]
+    },
+    "bioconductor-genomeinfodbdata-0.99.0-1.tar.bz2": {
+      "depends": [
+        "r-base >=3.3,<3.4",
+        "wget"
+      ]
+    },
+    "bioconductor-genomicdatacommons-1.0.5-0.tar.bz2": {
+      "depends": [
+        "bioconductor-genomicranges",
+        "bioconductor-iranges",
+        "r-base >=3.4,<3.5",
+        "r-data.table",
+        "r-httr",
+        "r-jsonlite",
+        "r-lazyeval",
+        "r-magrittr",
+        "r-readr",
+        "r-xml2"
+      ]
+    },
+    "bioconductor-genomicscores-1.0.2-0.tar.bz2": {
+      "depends": [
+        "bioconductor-annotationhub",
+        "bioconductor-biocgenerics >=0.13.8",
+        "bioconductor-bsgenome",
+        "bioconductor-genomeinfodb",
+        "bioconductor-genomicranges",
+        "bioconductor-iranges >=2.3.23",
+        "bioconductor-s4vectors >=0.7.21",
+        "r-base >=3.4,<3.5",
+        "r-xml"
+      ]
+    },
+    "bioconductor-ggtree-1.8.2-0.tar.bz2": {
+      "depends": [
+        "bioconductor-treeio",
+        "r-ape",
+        "r-base >=3.3,<3.4",
+        "r-ggplot2 >=2.2.0",
+        "r-magrittr",
+        "r-rvcheck",
+        "r-tidyr"
+      ]
+    },
+    "bioconductor-globalseq-1.4.2-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.0,<3.1"
+      ]
+    },
+    "bioconductor-gosemsim-2.2.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-annotationdbi",
+        "bioconductor-go.db",
+        "r-base >=3.3,<3.4"
+      ]
+    },
+    "bioconductor-gtrellis-1.11.1-0.tar.bz2": {
+      "depends": [
+        "bioconductor-genomicranges",
+        "bioconductor-iranges",
+        "r-base >=3.3,<3.4",
+        "r-circlize >=0.4.1",
+        "r-getoptlong >=0.1.6",
+        "r-gridbase"
+      ]
+    },
+    "bioconductor-heatmaps-1.0.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biocgenerics",
+        "bioconductor-biostrings",
+        "bioconductor-ebimage",
+        "bioconductor-genomeinfodb",
+        "bioconductor-genomicranges",
+        "bioconductor-iranges",
+        "r-base >=3.4,<3.5",
+        "r-kernsmooth",
+        "r-matrix",
+        "r-plotrix",
+        "r-rcolorbrewer"
+      ]
+    },
+    "bioconductor-hicrep-1.0.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.4,<3.5"
+      ]
+    },
+    "bioconductor-hmmcopy-1.18.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-geneplotter >=1.24.0",
+        "bioconductor-iranges >=1.4.16",
+        "r-base >=2.10,<2.11",
+        "readline 6.2*"
+      ]
+    },
+    "bioconductor-hpar-1.18.1-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.15,<2.16"
+      ]
+    },
+    "bioconductor-hsmmsinglecell-0.110.0-1.tar.bz2": {
+      "depends": [
+        "r-base >=2.10,<2.11",
+        "wget"
+      ]
+    },
+    "bioconductor-ihw-1.4.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biocgenerics",
+        "bioconductor-lpsymphony",
+        "r-base >=3.3,<3.4",
+        "r-fdrtool",
+        "r-slam"
+      ]
+    },
+    "bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19-0.6.0-1.tar.bz2": {
+      "depends": [
+        "bioconductor-minfi >=1.19.15",
+        "r-base >=3.3,<3.4",
+        "wget"
+      ]
+    },
+    "bioconductor-interactivedisplaybase-1.14.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biocgenerics",
+        "r-base >=2.10,<2.11",
+        "r-shiny"
+      ]
+    },
+    "bioconductor-interest-1.2.2-1.tar.bz2": {
+      "depends": [
+        "bioconductor-biocgenerics",
+        "bioconductor-biocparallel",
+        "bioconductor-biostrings",
+        "bioconductor-deseq2",
+        "bioconductor-dexseq",
+        "bioconductor-edger",
+        "bioconductor-genomeinfodb",
+        "bioconductor-genomicalignments",
+        "bioconductor-genomicfeatures",
+        "bioconductor-genomicranges",
+        "bioconductor-iranges",
+        "bioconductor-rsamtools",
+        "bioconductor-s4vectors",
+        "bioconductor-seqlogo",
+        "bioconductor-summarizedexperiment",
+        "r-base >=3.4,<3.5",
+        "r-dbi",
+        "r-rmysql",
+        "r-seqinr"
+      ]
+    },
+    "bioconductor-jaspar2016-1.4.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.2,<3.3",
+        "wget"
+      ]
+    },
+    "bioconductor-jaspar2018-0.99.2-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biostrings >=2.29.19",
+        "r-base >=3.4,<3.5",
+        "wget"
+      ]
+    },
+    "bioconductor-jaspar2018-1.0.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biostrings >=2.29.19",
+        "r-base >=3.4,<3.5",
+        "wget"
+      ]
+    },
+    "bioconductor-lpsymphony-1.4.1-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.0,<3.1"
+      ]
+    },
+    "bioconductor-m3drop-1.2.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.3,<3.4",
+        "r-bbmle",
+        "r-gplots",
+        "r-numderiv",
+        "r-rcolorbrewer",
+        "r-statmod"
+      ]
+    },
+    "bioconductor-maanova-1.46.1-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "r-base >=2.10,<2.11"
+      ]
+    },
+    "bioconductor-mantelcorr-1.46.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.10,<2.11"
+      ]
+    },
+    "bioconductor-masigpro-1.50.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "r-base >=2.3,<2.4",
+        "r-mass",
+        "r-mclust",
+        "r-venn"
+      ]
+    },
+    "bioconductor-massarray-1.28.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.10,<2.11"
+      ]
+    },
+    "bioconductor-massir-1.12.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "r-base >=3.0,<3.1",
+        "r-cluster",
+        "r-diptest",
+        "r-gplots"
+      ]
+    },
+    "bioconductor-mbamethyl-1.10.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.15,<2.16"
+      ]
+    },
+    "bioconductor-mbttest-1.4.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.3,<3.4",
+        "r-gplots",
+        "r-gtools"
+      ]
+    },
+    "bioconductor-mdqc-1.38.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.2,<2.3",
+        "r-cluster",
+        "r-mass"
+      ]
+    },
+    "bioconductor-mergemaid-2.48.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "r-base >=2.10,<2.11",
+        "r-mass",
+        "r-survival"
+      ]
+    },
+    "bioconductor-mergeomics-1.4.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.0,<3.1"
+      ]
+    },
+    "bioconductor-meshsim-1.7.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.0,<3.1",
+        "r-rcurl",
+        "r-xml"
+      ]
+    },
+    "bioconductor-messina-1.12.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.1,<3.2",
+        "r-foreach >=1.4.1",
+        "r-ggplot2 >=0.9.3.1",
+        "r-plyr >=1.8",
+        "r-rcpp >=0.11.1",
+        "r-survival >=2.37-4"
+      ]
+    },
+    "bioconductor-metahdep-1.34.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.10,<2.11"
+      ]
+    },
+    "bioconductor-methped-1.4.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "r-base >=3.0,<3.1",
+        "r-randomforest"
+      ]
+    },
+    "bioconductor-methylkit-1.2.4-0.tar.bz2": {
+      "depends": [
+        "bioconductor-fastseg",
+        "bioconductor-genomeinfodb",
+        "bioconductor-genomicranges >=1.18.1",
+        "bioconductor-iranges",
+        "bioconductor-limma",
+        "bioconductor-qvalue",
+        "bioconductor-rhtslib",
+        "bioconductor-rsamtools",
+        "bioconductor-rtracklayer",
+        "bioconductor-s4vectors >=0.13.13",
+        "r-base >=3.3,<3.4",
+        "r-data.table >=1.9.6",
+        "r-emdbook",
+        "r-gtools",
+        "r-kernsmooth",
+        "r-mclust",
+        "r-r.utils",
+        "r-rcpp"
+      ]
+    },
+    "bioconductor-mgfr-1.2.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-annotate",
+        "bioconductor-biomart",
+        "r-base >=3.3,<3.4"
+      ]
+    },
+    "bioconductor-mgsa-1.24.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.14,<2.15",
+        "r-gplots"
+      ]
+    },
+    "bioconductor-michip-1.30.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "r-base >=2.3,<2.4"
+      ]
+    },
+    "bioconductor-mirnapath-1.36.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.7,<2.8"
+      ]
+    },
+    "bioconductor-mirnatap-1.10.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-annotationdbi",
+        "r-base >=3.3,<3.4",
+        "r-dbi",
+        "r-plyr",
+        "r-rsqlite",
+        "r-sqldf",
+        "r-stringr"
+      ]
+    },
+    "bioconductor-mirsynergy-1.12.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.0,<3.1",
+        "r-ggplot2",
+        "r-gridextra",
+        "r-igraph",
+        "r-matrix",
+        "r-rcolorbrewer",
+        "r-reshape",
+        "r-scales"
+      ]
+    },
+    "bioconductor-mspurity-1.3.9-0.tar.bz2": {
+      "depends": [
+        "bioconductor-mzr",
+        "r-base >=3.4,<3.5",
+        "r-dbi",
+        "r-dosnow",
+        "r-fastcluster",
+        "r-foreach",
+        "r-ggplot2",
+        "r-plyr",
+        "r-rcpp",
+        "r-reshape2",
+        "r-rsqlite",
+        "r-stringr"
+      ]
+    },
+    "bioconductor-mspurity-1.5.4-0.tar.bz2": {
+      "depends": [
+        "bioconductor-camera >=1.34.0",
+        "bioconductor-xcms >=3.0.0",
+        "r-base >=3.4,<3.5",
+        "r-dbi",
+        "r-dosnow",
+        "r-fastcluster",
+        "r-foreach",
+        "r-ggplot2",
+        "r-plyr",
+        "r-rcpp",
+        "r-reshape2",
+        "r-rsqlite",
+        "r-stringr"
+      ]
+    },
+    "bioconductor-mspurity-1.5.4-1.tar.bz2": {
+      "depends": [
+        "bioconductor-camera >=1.34.0",
+        "bioconductor-xcms >=3.0.0",
+        "libnetcdf 4.4.*",
+        "r-base >=3.4,<3.5",
+        "r-dbi",
+        "r-dosnow",
+        "r-fastcluster",
+        "r-foreach",
+        "r-ggplot2",
+        "r-plyr",
+        "r-rcpp",
+        "r-reshape2",
+        "r-rsqlite",
+        "r-stringr"
+      ]
+    },
+    "bioconductor-multidataset-1.4.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "bioconductor-biocgenerics",
+        "bioconductor-genomicranges",
+        "bioconductor-iranges",
+        "bioconductor-s4vectors",
+        "bioconductor-summarizedexperiment",
+        "r-base >=3.3,<3.4"
+      ]
+    },
+    "bioconductor-multimed-1.10.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.1,<3.2"
+      ]
+    },
+    "bioconductor-multiomicsviz-1.0.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-summarizedexperiment",
+        "r-base >=3.3,<3.4",
+        "r-doparallel",
+        "r-foreach"
+      ]
+    },
+    "bioconductor-multiscan-1.36.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "r-base >=2.3,<2.4"
+      ]
+    },
+    "bioconductor-multtest-2.32.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "bioconductor-biocgenerics",
+        "r-base >=2.10,<2.11",
+        "r-mass",
+        "r-survival"
+      ]
+    },
+    "bioconductor-mutationalpatterns-1.4.1-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biostrings",
+        "bioconductor-bsgenome",
+        "bioconductor-genomeinfodb >=1.12.0",
+        "bioconductor-genomicranges",
+        "bioconductor-iranges",
+        "bioconductor-summarizedexperiment",
+        "bioconductor-variantannotation",
+        "r-base >=3.4,<3.5",
+        "r-cowplot",
+        "r-ggdendro",
+        "r-ggplot2",
+        "r-gridextra",
+        "r-nmf",
+        "r-plyr",
+        "r-pracma",
+        "r-reshape2"
+      ]
+    },
+    "bioconductor-mvcclass-1.50.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.1,<2.2"
+      ]
+    },
+    "bioconductor-netbiov-1.10.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.1,<3.2",
+        "r-igraph >=0.7.1"
+      ]
+    },
+    "bioconductor-netpathminer-1.12.1-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.0,<3.1",
+        "r-igraph >=1.0"
+      ]
+    },
+    "bioconductor-noiseq-2.20.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase >=2.13.11",
+        "r-base >=2.13,<2.14",
+        "r-matrix >=1.2"
+      ]
+    },
+    "bioconductor-ntw-1.26.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.3,<2.4",
+        "r-mvtnorm"
+      ]
+    },
+    "bioconductor-occugene-1.36.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.0,<2.1"
+      ]
+    },
+    "bioconductor-omicade4-1.16.1-0.tar.bz2": {
+      "depends": [
+        "bioconductor-made4",
+        "r-ade4",
+        "r-base >=3.0,<3.1"
+      ]
+    },
+    "bioconductor-oppar-1.4.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "bioconductor-gseabase",
+        "bioconductor-gsva",
+        "r-base >=3.3,<3.4"
+      ]
+    },
+    "bioconductor-outlierd-1.40.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "r-base >=2.3,<2.4",
+        "r-quantreg"
+      ]
+    },
+    "bioconductor-path2ppi-1.6.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.2,<3.3",
+        "r-igraph >=1.0.1"
+      ]
+    },
+    "bioconductor-pathnet-1.16.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=1.14,<1.15"
+      ]
+    },
+    "bioconductor-pcan-1.4.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biocparallel",
+        "r-base >=3.3,<3.4"
+      ]
+    },
+    "bioconductor-peca-1.12.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-affy",
+        "bioconductor-genefilter",
+        "bioconductor-limma",
+        "bioconductor-preprocesscore",
+        "bioconductor-rots",
+        "r-aroma.affymetrix",
+        "r-aroma.core",
+        "r-base >=3.3,<3.4"
+      ]
+    },
+    "bioconductor-pepxmltab-1.10.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.0,<3.1",
+        "r-xml >=3.98-1.1"
+      ]
+    },
+    "bioconductor-phosphonormalizer-1.2.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.4,<3.5",
+        "r-matrixstats",
+        "r-plyr"
+      ]
+    },
+    "bioconductor-plgem-1.48.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase >=2.5.5",
+        "r-base >=2.10,<2.11",
+        "r-mass"
+      ]
+    },
+    "bioconductor-prada-1.52.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "bioconductor-biocgenerics",
+        "r-base >=2.10,<2.11",
+        "r-mass",
+        "r-rcolorbrewer",
+        "r-rrcov"
+      ]
+    },
+    "bioconductor-profia-1.2.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "bioconductor-biocparallel",
+        "bioconductor-ropls",
+        "bioconductor-xcms",
+        "r-base >=3.3,<3.4",
+        "r-fnn",
+        "r-maxlik",
+        "r-minpack.lm",
+        "r-pracma"
+      ]
+    },
+    "bioconductor-purecn-1.6.3-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biostrings",
+        "bioconductor-dnacopy",
+        "bioconductor-edger",
+        "bioconductor-genomeinfodb",
+        "bioconductor-genomicranges >=1.20.3",
+        "bioconductor-iranges >=2.2.1",
+        "bioconductor-limma",
+        "bioconductor-rsamtools",
+        "bioconductor-rtracklayer",
+        "bioconductor-s4vectors",
+        "bioconductor-summarizedexperiment",
+        "bioconductor-variantannotation >=1.14.1",
+        "r-base >=3.3,<3.4",
+        "r-data.table",
+        "r-futile.logger",
+        "r-ggplot2",
+        "r-rcolorbrewer",
+        "r-vgam"
+      ]
+    },
+    "bioconductor-pvac-1.24.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-affy >=1.20.0",
+        "bioconductor-biobase",
+        "r-base >=2.8,<2.9"
+      ]
+    },
+    "bioconductor-quantsmooth-1.42.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.10,<2.11",
+        "r-quantreg"
+      ]
+    },
+    "bioconductor-qvalue-2.8.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.10,<2.11",
+        "r-ggplot2",
+        "r-reshape2"
+      ]
+    },
+    "bioconductor-rain-1.10.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-multtest",
+        "r-base >=2.10,<2.11",
+        "r-gmp"
+      ]
+    },
+    "bioconductor-rama-1.50.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.5,<2.6"
+      ]
+    },
+    "bioconductor-rbsurv-2.34.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase >=2.5.5",
+        "r-base >=2.5,<2.6",
+        "r-survival"
+      ]
+    },
+    "bioconductor-rcas-1.2.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-annotationdbi",
+        "bioconductor-biocgenerics",
+        "bioconductor-biomart",
+        "bioconductor-biostrings",
+        "bioconductor-bsgenome.hsapiens.ucsc.hg19",
+        "bioconductor-genomation >=1.5.5",
+        "bioconductor-genomeinfodb",
+        "bioconductor-genomicfeatures",
+        "bioconductor-genomicranges",
+        "bioconductor-motifrg",
+        "bioconductor-org.hs.eg.db",
+        "bioconductor-rtracklayer",
+        "bioconductor-s4vectors",
+        "bioconductor-topgo",
+        "r-base >=3.3,<3.4",
+        "r-data.table",
+        "r-dt >=0.2",
+        "r-knitr >=1.12.3",
+        "r-plotly >=4.5.2",
+        "r-plotrix",
+        "r-rmarkdown >=0.9.5"
+      ]
+    },
+    "bioconductor-readqpcr-1.22.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-affy",
+        "bioconductor-biobase",
+        "r-base >=2.14,<2.15"
+      ]
+    },
+    "bioconductor-rgsea-1.10.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biocgenerics",
+        "r-base >=2.10,<2.11"
+      ]
+    },
+    "bioconductor-rgsepd-1.8.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-annotationdbi",
+        "bioconductor-biomart",
+        "bioconductor-deseq2",
+        "bioconductor-go.db",
+        "bioconductor-goseq >=1.17",
+        "bioconductor-org.hs.eg.db",
+        "bioconductor-summarizedexperiment",
+        "r-base >=3.3,<3.4",
+        "r-gplots",
+        "r-hash"
+      ]
+    },
+    "bioconductor-risa-1.18.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-affy",
+        "bioconductor-biobase >=2.4.0",
+        "bioconductor-biocviews",
+        "bioconductor-xcms",
+        "r-base >=2.0,<2.1",
+        "r-rcpp >=0.9.13",
+        "readline 6.2"
+      ]
+    },
+    "bioconductor-rlmm-1.38.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.1,<2.2",
+        "r-mass"
+      ]
+    },
+    "bioconductor-rnaseqcomp-1.6.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.2,<3.3",
+        "r-rcolorbrewer"
+      ]
+    },
+    "bioconductor-roc-1.52.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=1.9,<1.10"
+      ]
+    },
+    "bioconductor-rots-1.4.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "r-base >=3.3,<3.4",
+        "r-rcpp"
+      ]
+    },
+    "bioconductor-rrho-1.16.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.10,<2.11",
+        "r-venndiagram"
+      ]
+    },
+    "bioconductor-rtracklayer-1.36.6-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biocgenerics >=0.13.8",
+        "bioconductor-biostrings >=2.43.7",
+        "bioconductor-genomeinfodb >=1.3.14",
+        "bioconductor-genomicalignments >=1.5.4",
+        "bioconductor-genomicranges >=1.21.20",
+        "bioconductor-iranges >=2.3.7",
+        "bioconductor-rsamtools >=1.17.8",
+        "bioconductor-s4vectors >=0.13.13",
+        "bioconductor-xvector >=0.9.4",
+        "bioconductor-zlibbioc",
+        "r-base >=3.3,<3.4",
+        "r-rcurl >=1.4*",
+        "r-xml >=1.98*"
+      ]
+    },
+    "bioconductor-sagenhaft-1.46.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.10,<2.11",
+        "r-sparsem >=0.73"
+      ]
+    },
+    "bioconductor-sagx-1.50.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "bioconductor-multtest",
+        "r-base >=2.5,<2.6"
+      ]
+    },
+    "bioconductor-santa-2.14.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.14,<2.15",
+        "r-igraph",
+        "r-matrix",
+        "r-snow"
+      ]
+    },
+    "bioconductor-scater-1.4.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "bioconductor-biocgenerics",
+        "bioconductor-biomart",
+        "bioconductor-edger",
+        "bioconductor-limma",
+        "bioconductor-rhdf5",
+        "bioconductor-tximport",
+        "r-base >=3.3,<3.4",
+        "r-data.table",
+        "r-dplyr",
+        "r-ggbeeswarm",
+        "r-ggplot2",
+        "r-matrix",
+        "r-matrixstats",
+        "r-plyr",
+        "r-reshape2",
+        "r-rjson",
+        "r-shiny",
+        "r-shinydashboard",
+        "r-viridis"
+      ]
+    },
+    "bioconductor-scran-1.4.5-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase",
+        "bioconductor-biocparallel",
+        "bioconductor-edger",
+        "bioconductor-limma",
+        "bioconductor-scater",
+        "r-base >=3.4,<3.5",
+        "r-dt",
+        "r-dynamictreecut",
+        "r-fnn",
+        "r-ggplot2",
+        "r-igraph",
+        "r-mass",
+        "r-matrix",
+        "r-shiny",
+        "r-statmod",
+        "r-viridis",
+        "r-zoo"
+      ]
+    },
+    "bioconductor-sights-1.2.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-qvalue >=2.2",
+        "r-base >=3.3,<3.4",
+        "r-ggplot2 >=2.0",
+        "r-lattice >=0.2",
+        "r-mass >=7.3",
+        "r-reshape2 >=1.4"
+      ]
+    },
+    "bioconductor-sigpathway-1.44.1-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.10,<2.11"
+      ]
+    },
+    "bioconductor-slqpcr-1.42.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.4,<2.5"
+      ]
+    },
+    "bioconductor-smap-1.40.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.10,<2.11"
+      ]
+    },
+    "bioconductor-snpediar-1.2.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.0,<3.1",
+        "r-jsonlite",
+        "r-rcurl"
+      ]
+    },
+    "bioconductor-spktools-1.32.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase >=2.5.5",
+        "r-base >=2.7,<2.8",
+        "r-gtools",
+        "r-rcolorbrewer"
+      ]
+    },
+    "bioconductor-splinter-1.2.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biomart",
+        "bioconductor-biostrings",
+        "bioconductor-bsgenome.mmusculus.ucsc.mm9",
+        "bioconductor-genomeinfodb",
+        "bioconductor-genomicalignments",
+        "bioconductor-genomicfeatures",
+        "bioconductor-genomicranges",
+        "bioconductor-gviz",
+        "bioconductor-iranges",
+        "bioconductor-s4vectors",
+        "bioconductor-seqlogo",
+        "r-base >=3.3,<3.4",
+        "r-ggplot2",
+        "r-plyr"
+      ]
+    },
+    "bioconductor-squadd-1.26.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.11,<2.12",
+        "r-rcolorbrewer"
+      ]
+    },
+    "bioconductor-sscu-2.6.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biocgenerics >=0.16.1",
+        "bioconductor-biostrings >=2.36.4",
+        "r-base >=3.3,<3.4",
+        "r-seqinr >=3.1-3"
+      ]
+    },
+    "bioconductor-sseq-1.14.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.0,<3.1",
+        "r-catools",
+        "r-rcolorbrewer"
+      ]
+    },
+    "bioconductor-suprahex-1.14.0-0.tar.bz2": {
+      "depends": [
+        "r-ape",
+        "r-base >=3.3,<3.4",
+        "r-hexbin",
+        "r-mass"
+      ]
+    },
+    "bioconductor-swath2stats-1.6.1-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.10,<2.11",
+        "r-data.table",
+        "r-ggplot2",
+        "r-reshape2"
+      ]
+    },
+    "bioconductor-switchbox-1.12.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.13,<2.14",
+        "r-gplots",
+        "r-proc"
+      ]
+    },
+    "bioconductor-ternarynet-1.20.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.10,<2.11",
+        "r-igraph"
+      ]
+    },
+    "bioconductor-treeio-1.0.2-0.tar.bz2": {
+      "depends": [
+        "r-ape",
+        "r-base >=3.3,<3.4",
+        "r-ggplot2",
+        "r-jsonlite",
+        "r-magrittr",
+        "r-rvcheck"
+      ]
+    },
+    "bioconductor-trio-3.14.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.0,<3.1"
+      ]
+    },
+    "bioconductor-tspair-1.34.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase >=2.4.0",
+        "r-base >=2.10,<2.11"
+      ]
+    },
+    "bioconductor-twilight-1.52.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase >=1.12.0",
+        "r-base >=2.10,<2.11"
+      ]
+    },
+    "bioconductor-vega-1.24.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.10,<2.11"
+      ]
+    },
+    "bioconductor-weaver-1.42.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.5,<2.6",
+        "r-codetools",
+        "r-digest"
+      ]
+    },
+    "bioconductor-xde-2.22.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biobase >=2.5.5",
+        "bioconductor-biocgenerics",
+        "bioconductor-genefilter",
+        "bioconductor-mergemaid",
+        "r-base >=2.10,<2.11",
+        "r-gtools",
+        "r-mvtnorm"
+      ]
+    },
+    "bioconductor-xmapbridge-1.34.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=2.0,<2.1"
+      ]
+    },
+    "bioconductor-yeastexpdata-0.22.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-graph >=1.9.26",
+        "r-base >=2.4,<2.5",
+        "wget"
+      ]
+    },
     "bolt-0.2.2-hd5045b1_0.tar.bz2": {
       "depends": [
         "htslib >=1.9,<1.10.0a0",
@@ -650,6 +2303,340 @@
         "msprime >=0.5.0",
         "python >=3.7,<3.8.0a0",
         "tbb >=2019.7,<2021.0.0a0"
+      ]
+    },
+    "r-alakazam-0.2.7-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.4,<3.5",
+        "r-dplyr >=0.5.0",
+        "r-ggplot2 >=2.0.0",
+        "r-igraph >=1.0.0",
+        "r-lazyeval",
+        "r-progress",
+        "r-rcpp >=0.12.11",
+        "r-readr",
+        "r-scales",
+        "r-seqinr",
+        "r-stringi"
+      ]
+    },
+    "r-basejump-0.1.1-0.tar.bz2": {
+      "depends": [
+        "bioconductor-annotationhub",
+        "bioconductor-biobase",
+        "bioconductor-biocgenerics",
+        "bioconductor-ensembldb",
+        "bioconductor-s4vectors",
+        "r-base >=3.4,<3.5",
+        "r-cowplot",
+        "r-dendsort",
+        "r-devtools",
+        "r-dplyr",
+        "r-ggplot2",
+        "r-knitr",
+        "r-magrittr",
+        "r-matrix",
+        "r-matrix.utils",
+        "r-pheatmap",
+        "r-r.utils",
+        "r-rcolorbrewer",
+        "r-rcurl",
+        "r-readr",
+        "r-readxl",
+        "r-rlang",
+        "r-scales",
+        "r-stringr",
+        "r-tibble",
+        "r-tidyr",
+        "r-viridis",
+        "r-yaml"
+      ]
+    },
+    "r-basejump-0.5.3-0.tar.bz2": {
+      "depends": [
+        "bioconductor-annotationhub",
+        "bioconductor-biobase",
+        "bioconductor-biocgenerics",
+        "bioconductor-ensembldb",
+        "bioconductor-s4vectors",
+        "r-assertive",
+        "r-base >=3.4,<3.5",
+        "r-cowplot",
+        "r-dendsort",
+        "r-devtools",
+        "r-dplyr",
+        "r-ggplot2",
+        "r-knitr",
+        "r-magrittr",
+        "r-matrix",
+        "r-matrix.utils",
+        "r-pbapply",
+        "r-pheatmap",
+        "r-r.utils",
+        "r-rcolorbrewer",
+        "r-rcurl",
+        "r-readr",
+        "r-readxl",
+        "r-rlang",
+        "r-scales",
+        "r-stringr",
+        "r-tibble",
+        "r-tidyr",
+        "r-viridis",
+        "r-yaml"
+      ]
+    },
+    "r-basejump-0.5.9-0.tar.bz2": {
+      "depends": [
+        "bioconductor-annotationhub",
+        "bioconductor-biobase",
+        "bioconductor-biocgenerics",
+        "bioconductor-ensembldb",
+        "bioconductor-genomeinfodb",
+        "bioconductor-s4vectors",
+        "r-assertive",
+        "r-base >=3.4,<3.5",
+        "r-cowplot >=0.9",
+        "r-dendsort",
+        "r-devtools",
+        "r-dplyr >=0.7",
+        "r-ggplot2 >=2.2.1",
+        "r-knitr >=1.2.0",
+        "r-magrittr >=1.5",
+        "r-matrix >=1.2",
+        "r-matrix.utils >=0.9",
+        "r-pbapply",
+        "r-pheatmap",
+        "r-r.utils",
+        "r-rcolorbrewer",
+        "r-rcurl >=1.95",
+        "r-readr >=1.1",
+        "r-readxl >=1.0",
+        "r-rlang >=0.2",
+        "r-scales",
+        "r-stringr >=1.3",
+        "r-tibble >=1.4",
+        "r-tidyr >=0.8",
+        "r-viridis",
+        "r-yaml"
+      ]
+    },
+    "r-bcbiobase-0.0.3-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biocgenerics",
+        "bioconductor-biostrings",
+        "r-base >=3.4,<3.5",
+        "r-basejump",
+        "r-dplyr",
+        "r-magrittr",
+        "r-readr",
+        "r-rlang",
+        "r-rmysql",
+        "r-scales",
+        "r-stringr",
+        "r-tidyr"
+      ]
+    },
+    "r-bcbiobase-0.2.10-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biocgenerics",
+        "bioconductor-biostrings",
+        "r-base >=3.4,<3.5",
+        "r-basejump",
+        "r-dplyr",
+        "r-ggrepel",
+        "r-magrittr",
+        "r-rdrop2",
+        "r-readr",
+        "r-rlang",
+        "r-rmysql",
+        "r-scales",
+        "r-sessioninfo",
+        "r-stringr",
+        "r-tidyr"
+      ]
+    },
+    "r-bcbiobase-0.2.12-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biocgenerics",
+        "bioconductor-biostrings",
+        "r-base >=3.4,<3.5",
+        "r-basejump",
+        "r-dplyr",
+        "r-ggrepel",
+        "r-magrittr",
+        "r-rdrop2",
+        "r-readr",
+        "r-rlang",
+        "r-rmysql",
+        "r-scales",
+        "r-sessioninfo",
+        "r-stringr",
+        "r-tidyr"
+      ]
+    },
+    "r-bcbiobase-0.2.15-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biocgenerics",
+        "bioconductor-biostrings",
+        "r-base >=3.4,<3.5",
+        "r-basejump",
+        "r-dplyr",
+        "r-ggrepel",
+        "r-magrittr",
+        "r-rdrop2",
+        "r-readr",
+        "r-rlang",
+        "r-rmysql",
+        "r-scales",
+        "r-sessioninfo",
+        "r-stringr",
+        "r-tidyr"
+      ]
+    },
+    "r-bcbiobase-0.2.15-1.tar.bz2": {
+      "depends": [
+        "bioconductor-biocgenerics",
+        "bioconductor-biostrings",
+        "r-base >=3.4,<3.5",
+        "r-basejump >=0.5.8",
+        "r-dplyr >=0.7",
+        "r-ggplot2 >=2.2.1",
+        "r-ggrepel >=0.7",
+        "r-magrittr >=1.5",
+        "r-pheatmap >=1.0.10",
+        "r-plyr >=1.8",
+        "r-rdrop2 >=0.8",
+        "r-readr >=1.1",
+        "r-rlang >=0.2",
+        "r-rmysql",
+        "r-sessioninfo >=1.0",
+        "r-stringr >=1.3",
+        "r-tibble >=1.4",
+        "r-tidyr >=0.8",
+        "r-viridis >=0.5"
+      ]
+    },
+    "r-bcbiobase-0.2.9-0.tar.bz2": {
+      "depends": [
+        "bioconductor-biocgenerics",
+        "bioconductor-biostrings",
+        "r-base >=3.4,<3.5",
+        "r-basejump",
+        "r-dplyr",
+        "r-magrittr",
+        "r-rdrop2",
+        "r-readr",
+        "r-rlang",
+        "r-rmysql",
+        "r-scales",
+        "r-sessioninfo",
+        "r-stringr",
+        "r-tidyr"
+      ]
+    },
+    "r-bcbiornaseq-0.1.2-0.tar.bz2": {
+      "depends": [
+        "bioconductor-degreport",
+        "bioconductor-deseq2",
+        "bioconductor-edger",
+        "bioconductor-summarizedexperiment",
+        "bioconductor-tximport",
+        "bioconductor-vsn",
+        "r-base >=3.4,<3.5",
+        "r-bcbiobase",
+        "r-ggrepel",
+        "r-pbapply"
+      ]
+    },
+    "r-bcbiornaseq-0.2.3a-0.tar.bz2": {
+      "depends": [
+        "bioconductor-degreport",
+        "bioconductor-deseq2",
+        "bioconductor-edger",
+        "bioconductor-summarizedexperiment",
+        "bioconductor-tximport",
+        "bioconductor-vsn",
+        "r-base >=3.4,<3.5",
+        "r-bcbiobase",
+        "r-ggrepel",
+        "r-pbapply"
+      ]
+    },
+    "r-bcbiornaseq-0.2.4-0.tar.bz2": {
+      "depends": [
+        "bioconductor-degreport",
+        "bioconductor-deseq2",
+        "bioconductor-edger",
+        "bioconductor-summarizedexperiment",
+        "bioconductor-tximport",
+        "bioconductor-vsn",
+        "r-base >=3.4,<3.5",
+        "r-bcbiobase",
+        "r-ggrepel",
+        "r-pbapply",
+        "r-rmarkdown",
+        "r-tidyverse"
+      ]
+    },
+    "r-canopy-1.3.0-0.tar.bz2": {
+      "depends": [
+        "r-ape",
+        "r-base >=3.4,<3.5",
+        "r-fields",
+        "r-pheatmap",
+        "r-scatterplot3d"
+      ]
+    },
+    "r-genometricorr-1.1.17-0.tar.bz2": {
+      "depends": [
+        "bioconductor-genomeinfodb",
+        "bioconductor-genomicfeatures",
+        "bioconductor-genomicranges",
+        "bioconductor-iranges",
+        "bioconductor-rtracklayer",
+        "bioconductor-s4vectors",
+        "bioconductor-txdb.hsapiens.ucsc.hg19.knowngene",
+        "r-base >=3.1,<3.2",
+        "r-gdata",
+        "r-gplots",
+        "r-rcurl",
+        "r-tcltk2",
+        "xorg-libx11"
+      ]
+    },
+    "r-qorts-1.3.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.0,<3.1"
+      ]
+    },
+    "r-quorts-1.3.0-0.tar.bz2": {
+      "depends": [
+        "r-base >=3.0,<3.1"
+      ]
+    },
+    "r-sartools-1.6.0-0.tar.bz2": {
+      "depends": [
+        "bioconductor-deseq2 >=1.12.0",
+        "bioconductor-edger >=3.12.0",
+        "bioconductor-summarizedexperiment >=1.6",
+        "r-base >=3.3,<3.4",
+        "r-bit64",
+        "r-blob",
+        "r-knitr",
+        "r-rmarkdown >=1.4"
+      ]
+    },
+    "r-sartools-1.6.3-0.tar.bz2": {
+      "depends": [
+        "bioconductor-deseq2 >=1.12.0",
+        "bioconductor-edger >=3.12.0",
+        "bioconductor-summarizedexperiment >=1.6",
+        "r-base >=3.3,<3.4",
+        "r-bit64",
+        "r-blob",
+        "r-knitr",
+        "r-rmarkdown >=1.4"
       ]
     },
     "rapmap-0.6.0-hacce2fa_0.tar.bz2": {
