@@ -1,0 +1,1638 @@
+{
+  "packages": {
+    "bolt-0.2.2-h3889886_0.tar.bz2": {
+      "depends": [
+        "htslib >=1.9,<1.10.0a0",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.9,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bolt-0.2.3-h3889886_0.tar.bz2": {
+      "depends": [
+        "htslib >=1.9,<1.10.0a0",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.9,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bolt-0.3.0-h3889886_0.tar.bz2": {
+      "depends": [
+        "htslib >=1.9,<1.10.0a0",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.9,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bolt-0.3.0-h8e334b0_1.tar.bz2": {
+      "depends": [
+        "htslib >=1.10.2,<1.11.0a0",
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "tbb >=2020.1,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie-1.1.1-py27h2d50403_0.tar.bz2": {
+      "depends": [
+        "libstdcxx-ng >=4.9",
+        "perl",
+        "python >=2.7,<2.8.0a0",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie-1.1.1-py35h2d50403_0.tar.bz2": {
+      "depends": [
+        "libstdcxx-ng >=4.9",
+        "perl",
+        "python >=3.5,<3.6.0a0",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie-1.1.1-py36h2d50403_0.tar.bz2": {
+      "depends": [
+        "libstdcxx-ng >=4.9",
+        "perl",
+        "python >=3.6,<3.7.0a0",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.0-py27_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl-threaded",
+        "python 2.7*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.0-py34_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl-threaded",
+        "python 3.4*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.0-py35_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl-threaded",
+        "python 3.5*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.0-py36_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl-threaded",
+        "python 3.6*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.1.1-py27pl5.22.0_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl 5.22.0*",
+        "python 2.7*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.1.1-py35pl5.22.0_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl 5.22.0*",
+        "python 3.5*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.1.1-py36pl5.22.0_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl 5.22.0*",
+        "python 3.6*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.2-py27h2d50403_1.tar.bz2": {
+      "depends": [
+        "libstdcxx-ng >=4.9",
+        "perl",
+        "python >=2.7,<2.8.0a0",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.2-py27pl5.22.0_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl 5.22.0*",
+        "python 2.7*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.2-py35h2d50403_1.tar.bz2": {
+      "depends": [
+        "libstdcxx-ng >=4.9",
+        "perl",
+        "python >=3.5,<3.6.0a0",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.2-py35pl5.22.0_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl 5.22.0*",
+        "python 3.5*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.2-py36h2d50403_1.tar.bz2": {
+      "depends": [
+        "libstdcxx-ng >=4.9",
+        "perl",
+        "python >=3.6,<3.7.0a0",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.2-py36pl5.22.0_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl 5.22.0*",
+        "python 3.6*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.3-py27h2bce143_2.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=2.7,<2.8.0a0",
+        "python_abi 2.7.* *_cp27mu",
+        "tbb >=2020.1,<2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.3-py27hc9558a2_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "perl",
+        "python >=2.7,<2.8.0a0",
+        "tbb >=2019.8,<2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.3-py36hc9558a2_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "perl",
+        "python >=3.6,<3.7.0a0",
+        "tbb >=2019.8,<2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.3-py36hdb11119_1.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "perl",
+        "python >=3.6,<3.7.0a0",
+        "python_abi 3.6.* *_cp36m",
+        "tbb >=2020.1,<2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.3-py36hf1ae8f4_2.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.6,<3.7.0a0",
+        "python_abi 3.6.* *_cp36m",
+        "tbb >=2020.1,<2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.3-py37h99015e2_1.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "perl",
+        "python >=3.7,<3.8.0a0",
+        "python_abi 3.7.* *_cp37m",
+        "tbb >=2020.1,<2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.3-py37h9a982cc_2.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.7,<3.8.0a0",
+        "python_abi 3.7.* *_cp37m",
+        "tbb >=2020.1,<2021.0.0a0"
+      ]
+    },
+    "bowtie-1.2.3-py37hc9558a2_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "perl",
+        "python >=3.7,<3.8.0a0",
+        "tbb >=2019.8,<2021.0.0a0"
+      ]
+    },
+    "bowtie-1.3.0-py36hf1ae8f4_1.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.6,<3.7.0a0",
+        "python_abi 3.6.* *_cp36m",
+        "tbb >=2020.1,<2021.0.0a0"
+      ]
+    },
+    "bowtie-1.3.0-py37h9a982cc_1.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.7,<3.8.0a0",
+        "python_abi 3.7.* *_cp37m",
+        "tbb >=2020.1,<2021.0.0a0"
+      ]
+    },
+    "bowtie-1.3.0-py38hc9558a2_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.8,<3.9.0a0",
+        "python_abi 3.8.* *_cp38",
+        "tbb >=2020.1,<2021.0.0a0"
+      ]
+    },
+    "bowtie-1.3.0-py38hed8969a_1.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.8,<3.9.0a0",
+        "python_abi 3.8.* *_cp38",
+        "tbb >=2020.1,<2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.0-py27_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl-threaded",
+        "python 2.7*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.0-py27_1.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl-threaded",
+        "python 2.7*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.0-py34_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl-threaded",
+        "python 3.4*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.0-py34_1.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl-threaded",
+        "python 3.4*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.0-py35_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl-threaded",
+        "python 3.5*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.0-py35_1.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl-threaded",
+        "python 3.5*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.0-py36_1.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl-threaded",
+        "python 3.6*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.2-py27pl5.22.0_1.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl 5.22.0*",
+        "python 2.7*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.2-py35pl5.22.0_1.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl 5.22.0*",
+        "python 3.5*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.2-py36pl5.22.0_1.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl 5.22.0*",
+        "python 3.6*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.3.1-py27pl5.22.0_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl 5.22.0*",
+        "python 2.7*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.3.1-py35pl5.22.0_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl 5.22.0*",
+        "python 3.5*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.3.1-py36pl5.22.0_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl 5.22.0*",
+        "python 3.6*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.4-py27pl5.22.0_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl 5.22.0*",
+        "python 2.7*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.4-py35pl5.22.0_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl 5.22.0*",
+        "python 3.5*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.4-py36pl5.22.0_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl 5.22.0*",
+        "python 3.6*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.4.1-py27h2d50403_1.tar.bz2": {
+      "depends": [
+        "libstdcxx-ng >=4.9",
+        "perl",
+        "python >=2.7,<2.8.0a0",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.4.1-py27pl5.22.0_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl 5.22.0*",
+        "python 2.7*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.4.1-py35h2d50403_1.tar.bz2": {
+      "depends": [
+        "libstdcxx-ng >=4.9",
+        "perl",
+        "python >=3.5,<3.6.0a0",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.4.1-py35pl5.22.0_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl 5.22.0*",
+        "python 3.5*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.4.1-py36h2d50403_1.tar.bz2": {
+      "depends": [
+        "libstdcxx-ng >=4.9",
+        "perl",
+        "python >=3.6,<3.7.0a0",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.4.1-py36pl5.22.0_0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "perl 5.22.0*",
+        "python 3.6*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "bowtie2-2.3.4.3-py27he860b03_1.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "perl",
+        "python >=2.7,<2.8.0a0",
+        "tbb >=2019.3,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.3.4.3-py36he860b03_1.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "perl",
+        "python >=3.6,<3.7.0a0",
+        "tbb >=2019.3,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.3.4.3-py37he860b03_1.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "perl",
+        "python >=3.7,<3.8.0a0",
+        "tbb >=2019.3,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.3.5-py27he860b03_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "perl",
+        "python >=2.7,<2.8.0a0",
+        "tbb >=2019.5,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.3.5-py36he860b03_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "perl",
+        "python >=3.6,<3.7.0a0",
+        "tbb >=2019.5,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.3.5-py37he860b03_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "perl",
+        "python >=3.7,<3.8.0a0",
+        "tbb >=2019.5,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.3.5.1-py27he513fc3_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "perl",
+        "python >=2.7,<2.8.0a0",
+        "tbb >=2019.9,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.3.5.1-py36he513fc3_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "perl",
+        "python >=3.6,<3.7.0a0",
+        "tbb >=2019.9,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.3.5.1-py37he513fc3_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "perl",
+        "python >=3.7,<3.8.0a0",
+        "tbb >=2019.9,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.4.1-py36h5202f60_3.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.6,<3.7.0a0",
+        "python_abi 3.6.* *_cp36m",
+        "tbb >=2020.1,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.4.1-py36h7f0b59b_1.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.6,<3.7.0a0",
+        "python_abi 3.6.* *_cp36m",
+        "tbb >=2020.1,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.4.1-py36h7f0b59b_2.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.6,<3.7.0a0",
+        "python_abi 3.6.* *_cp36m",
+        "tbb >=2020.1,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.4.1-py37h4ef193e_1.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.7,<3.8.0a0",
+        "python_abi 3.7.* *_cp37m",
+        "tbb >=2020.1,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.4.1-py37h4ef193e_2.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.7,<3.8.0a0",
+        "python_abi 3.7.* *_cp37m",
+        "tbb >=2020.1,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.4.1-py37h8270d21_3.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.7,<3.8.0a0",
+        "python_abi 3.7.* *_cp37m",
+        "tbb >=2020.1,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.4.1-py38h1c8e9b9_3.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.8,<3.9.0a0",
+        "python_abi 3.8.* *_cp38",
+        "tbb >=2020.1,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.4.1-py38he513fc3_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "perl",
+        "python >=3.8,<3.9.0a0",
+        "tbb >=2019.9,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.4.2-py36h5202f60_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.6,<3.7.0a0",
+        "python_abi 3.6.* *_cp36m",
+        "tbb >=2020.2,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.4.2-py36h5202f60_1.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.6,<3.7.0a0",
+        "python_abi 3.6.* *_cp36m",
+        "tbb >=2020.2,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.4.2-py37h8270d21_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.7,<3.8.0a0",
+        "python_abi 3.7.* *_cp37m",
+        "tbb >=2020.2,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.4.2-py37h8270d21_1.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.7,<3.8.0a0",
+        "python_abi 3.7.* *_cp37m",
+        "tbb >=2020.2,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.4.2-py38h1c8e9b9_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.8,<3.9.0a0",
+        "python_abi 3.8.* *_cp38",
+        "tbb >=2020.2,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "bowtie2-2.4.2-py38h1c8e9b9_1.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "perl",
+        "python >=3.8,<3.9.0a0",
+        "python_abi 3.8.* *_cp38",
+        "tbb >=2020.2,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "flexbar-2.5.0-0.tar.bz2": {
+      "depends": [
+        "bzip2",
+        "libgcc",
+        "seqan-library ==1.4.2",
+        "tbb <2021.0.0a0",
+        "zlib 1.2.8*"
+      ]
+    },
+    "flexbar-2.5.0-1.tar.bz2": {
+      "depends": [
+        "bzip2 1.0*",
+        "libgcc",
+        "seqan-library ==1.4.2",
+        "tbb <2021.0.0a0",
+        "zlib 1.2.11*"
+      ]
+    },
+    "flexbar-2.5.0-h21aa3a5_2.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.6,<2.0a0",
+        "libstdcxx-ng >=4.9",
+        "seqan-library 1.4.2",
+        "tbb <2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "flexbar-2.5.0-hb7ba0dd_3.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "seqan-library 1.4.2",
+        "tbb >=2020.1,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "flexbar-3.3.0-1.tar.bz2": {
+      "depends": [
+        "bzip2 1.0*",
+        "libcxx",
+        "libgcc",
+        "seqan-library ==2.4.0",
+        "tbb <2021.0.0a0",
+        "zlib 1.2.11*"
+      ]
+    },
+    "flexbar-3.5.0-hb7ba0dd_3.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "seqan-library",
+        "tbb >=2019.7,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "flexbar-3.5.0-hf3e9acd_2.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.6,<2.0a0",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "seqan-library",
+        "tbb >=2019.7,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "libsequence-1.8.4-h099358a_1.tar.bz2": {
+      "depends": [
+        "htslib",
+        "libgcc-ng >=4.9",
+        "tbb <2021.0.0a0",
+        "zlib"
+      ]
+    },
+    "libsequence-1.8.4-h8e334b0_3.tar.bz2": {
+      "depends": [
+        "htslib >=1.10.2,<1.11.0a0",
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "tbb <2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "libsequence-1.8.4-hf50d5a6_2.tar.bz2": {
+      "depends": [
+        "htslib",
+        "libgcc-ng >=4.9",
+        "tbb <2021.0.0a0",
+        "zlib"
+      ]
+    },
+    "libsequence-1.8.4-htslib1.6_0.tar.bz2": {
+      "depends": [
+        "htslib 1.6*",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib 1.2.8*"
+      ]
+    },
+    "libsequence-1.8.4-htslib1.7_0.tar.bz2": {
+      "depends": [
+        "htslib 1.7*",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib 1.2.11*"
+      ]
+    },
+    "libsequence-1.9.0-0.tar.bz2": {
+      "depends": [
+        "htslib",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib"
+      ]
+    },
+    "libsequence-1.9.0-1.tar.bz2": {
+      "depends": [
+        "htslib 1.4*",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib"
+      ]
+    },
+    "libsequence-1.9.1-1.tar.bz2": {
+      "depends": [
+        "htslib 1.4*",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib"
+      ]
+    },
+    "libsequence-1.9.1-htslib1.5_1.tar.bz2": {
+      "depends": [
+        "htslib 1.5*",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib"
+      ]
+    },
+    "libsequence-1.9.2-h099358a_2.tar.bz2": {
+      "depends": [
+        "htslib >=1.7,<1.8.0a0",
+        "libgcc-ng >=4.9",
+        "tbb <2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "libsequence-1.9.2-htslib1.5_0.tar.bz2": {
+      "depends": [
+        "htslib 1.5*",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib 1.2.8*"
+      ]
+    },
+    "libsequence-1.9.2-htslib1.6_0.tar.bz2": {
+      "depends": [
+        "htslib 1.6*",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib 1.2.8*"
+      ]
+    },
+    "libsequence-1.9.2-htslib1.7_1.tar.bz2": {
+      "depends": [
+        "htslib 1.7*",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib 1.2.11*"
+      ]
+    },
+    "libsequence-1.9.3-he941832_0.tar.bz2": {
+      "depends": [
+        "libstdcxx-ng >=4.9",
+        "tbb <2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "mmult-0.0.0.2-r40h8b68381_0.tar.bz2": {
+      "depends": [
+        "boost-cpp >=1.70.0,<1.70.1.0a0",
+        "eigen",
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "r-base >=4.0,<4.1.0a0",
+        "r-ggplot2",
+        "r-gridextra",
+        "rapidjson",
+        "sundials >=5.3.0,<5.4.0a0",
+        "tbb >=2020.2,<2021.0.0a0",
+        "tbb-devel"
+      ]
+    },
+    "pylibseq-0.2.1-py37h6bb024c_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libsequence >=1.9.6",
+        "libstdcxx-ng >=7.3.0",
+        "msprime >=0.5.0",
+        "python >=3.7,<3.8.0a0",
+        "tbb >=2019.7,<2021.0.0a0"
+      ]
+    },
+    "rapmap-0.6.0-h2d02072_1.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "jemalloc >=5.1.0",
+        "jemalloc >=5.2.1",
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "tbb <2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "rapmap-0.6.0-h76f5088_0.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.6,<2.0a0",
+        "jemalloc >=5.1.0",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb <2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "sailfish-0.10.1-1.tar.bz2": {
+      "depends": [
+        "boost ==1.63.0",
+        "icu 58.*",
+        "libgcc",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "sailfish-0.10.1-boost1.60_1.tar.bz2": {
+      "depends": [
+        "boost 1.60*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "sailfish-0.10.1-boost1.60_2.tar.bz2": {
+      "depends": [
+        "boost 1.60*",
+        "libgcc",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "sailfish-0.10.1-boost1.61_0.tar.bz2": {
+      "depends": [
+        "boost 1.61*",
+        "icu ==56.1",
+        "libgcc",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "sailfish-0.10.1-boost1.64_2.tar.bz2": {
+      "depends": [
+        "boost 1.64*",
+        "icu 58.*",
+        "libgcc",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "sailfish-0.10.1-h13bc50b_4.tar.bz2": {
+      "depends": [
+        "_openmp_mutex >=4.5",
+        "boost-cpp >=1.70.0,<1.70.1.0a0",
+        "icu >=64.2,<65.0a0",
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "tbb >=2020.1,<2021.0.0a0"
+      ]
+    },
+    "sailfish-0.10.1-h6516f61_3.tar.bz2": {
+      "depends": [
+        "boost >=1.66.0,<1.66.1.0a0",
+        "icu >=58.2,<59.0a0",
+        "libstdcxx-ng >=4.9",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "sailfish-0.7.6-0.tar.bz2": {
+      "depends": [
+        "boost",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "sailfish-0.9.0-0.tar.bz2": {
+      "depends": [
+        "boost",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "sailfish-0.9.0-1.tar.bz2": {
+      "depends": [
+        "boost",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "sailfish-0.9.0-boost1.60_1.tar.bz2": {
+      "depends": [
+        "boost 1.60*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "salmon-0.10.0-1.tar.bz2": {
+      "depends": [
+        "boost 1.64*",
+        "bzip2 1.0*",
+        "icu 58.*",
+        "jemalloc ==4.5.0",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib 1.2.11*"
+      ]
+    },
+    "salmon-0.10.1-1.tar.bz2": {
+      "depends": [
+        "boost 1.64*",
+        "bzip2 1.0*",
+        "icu 58.*",
+        "jemalloc ==4.5.0",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib 1.2.11*"
+      ]
+    },
+    "salmon-0.10.2-1.tar.bz2": {
+      "depends": [
+        "boost 1.64*",
+        "bzip2 1.0*",
+        "icu 58.*",
+        "jemalloc >=5.1.0",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib 1.2.11*"
+      ]
+    },
+    "salmon-0.11.0-h445c947_0.tar.bz2": {
+      "depends": [
+        "boost >=1.67.0,<1.67.1.0a0",
+        "bzip2 >=1.0.6,<2.0a0",
+        "icu >=58.2,<59.0a0",
+        "jemalloc >=5.1.0",
+        "libgcc-ng >=4.9",
+        "libstdcxx-ng >=4.9",
+        "tbb <2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-0.11.1-h445c947_0.tar.bz2": {
+      "depends": [
+        "boost >=1.67.0,<1.67.1.0a0",
+        "bzip2 >=1.0.6,<2.0a0",
+        "icu >=58.2,<59.0a0",
+        "jemalloc >=5.1.0",
+        "libgcc-ng >=4.9",
+        "libstdcxx-ng >=4.9",
+        "tbb <2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-0.11.2-h445c947_0.tar.bz2": {
+      "depends": [
+        "boost >=1.67.0,<1.67.1.0a0",
+        "bzip2 >=1.0.6,<2.0a0",
+        "icu >=58.2,<59.0a0",
+        "jemalloc >=5.1.0",
+        "libgcc-ng >=4.9",
+        "libstdcxx-ng >=4.9",
+        "tbb <2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-0.11.3-h86b0361_1.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.6,<2.0a0",
+        "icu >=58.2,<59.0a0",
+        "jemalloc >=5.1.0",
+        "libboost",
+        "libcxx",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb <2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-0.11.3-h86b0361_2.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.6,<2.0a0",
+        "icu >=58.2,<59.0a0",
+        "jemalloc >=5.1.0",
+        "libboost",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb <2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-0.12.0-h86b0361_1.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.6,<2.0a0",
+        "icu >=58.2,<59.0a0",
+        "jemalloc >=5.1.0",
+        "libboost",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.3,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-0.13.0-h86b0361_1.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.6,<2.0a0",
+        "icu >=58.2,<59.0a0",
+        "jemalloc >=5.1.0",
+        "libboost",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.4,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-0.13.0-h86b0361_2.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.6,<2.0a0",
+        "icu >=58.2,<59.0a0",
+        "jemalloc >=5.1.0",
+        "libboost",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.4,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-0.13.1-h86b0361_0.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.6,<2.0a0",
+        "icu >=58.2,<59.0a0",
+        "jemalloc >=5.1.0",
+        "libboost",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.4,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-0.14.0-h86b0361_0.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.6,<2.0a0",
+        "icu >=58.2,<59.0a0",
+        "jemalloc >=5.1.0",
+        "libboost",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.7,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-0.14.0-h86b0361_1.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.6,<2.0a0",
+        "icu >=58.2,<59.0a0",
+        "jemalloc >=5.1.0",
+        "libboost",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.7,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-0.14.1-h86b0361_0.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.6,<2.0a0",
+        "icu >=58.2,<59.0a0",
+        "jemalloc >=5.1.0",
+        "libboost",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.7,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-0.14.1-h86b0361_1.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.6,<2.0a0",
+        "icu >=58.2,<59.0a0",
+        "jemalloc >=5.1.0",
+        "libboost",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.7,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-0.14.1-ha0cc327_2.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.8,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-0.14.2-ha0cc327_0.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.8,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-0.14.2-hf69c8f4_1.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "icu >=64.2,<65.0a0",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.9,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-0.15.0-hf69c8f4_0.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "icu >=64.2,<65.0a0",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.9,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-0.5.1-0.tar.bz2": {
+      "depends": [
+        "boost",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "salmon-0.6.0-0.tar.bz2": {
+      "depends": [
+        "boost",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "salmon-0.6.0-1.tar.bz2": {
+      "depends": [
+        "boost",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "salmon-0.6.0-boost1.60_1.tar.bz2": {
+      "depends": [
+        "boost 1.60*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "salmon-0.6.0-boost1.60_2.tar.bz2": {
+      "depends": [
+        "boost 1.60*",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "salmon-0.7.2-boost1.60_2.tar.bz2": {
+      "depends": [
+        "boost 1.60*",
+        "bzip2",
+        "tbb <2021.0.0a0",
+        "zlib"
+      ]
+    },
+    "salmon-0.7.2-boost1.60_3.tar.bz2": {
+      "depends": [
+        "boost 1.60*",
+        "bzip2",
+        "icu 56.*",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib"
+      ]
+    },
+    "salmon-0.7.2-boost1.61_3.tar.bz2": {
+      "depends": [
+        "boost 1.61*",
+        "bzip2",
+        "icu 56.*",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib"
+      ]
+    },
+    "salmon-0.8.0-boost1.60_0.tar.bz2": {
+      "depends": [
+        "boost 1.60*",
+        "bzip2",
+        "icu 56.*",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib"
+      ]
+    },
+    "salmon-0.8.0-boost1.61_0.tar.bz2": {
+      "depends": [
+        "boost 1.61*",
+        "bzip2",
+        "icu 56.*",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib"
+      ]
+    },
+    "salmon-0.8.2-0.tar.bz2": {
+      "depends": [
+        "boost 1.61*",
+        "bzip2",
+        "icu 56.*",
+        "jemalloc",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib"
+      ]
+    },
+    "salmon-0.8.2-1.tar.bz2": {
+      "depends": [
+        "boost ==1.63.0",
+        "bzip2",
+        "icu 58.*",
+        "jemalloc ==4.5.0",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib"
+      ]
+    },
+    "salmon-0.9.0-0.tar.bz2": {
+      "depends": [
+        "boost 1.64*",
+        "bzip2 1.0*",
+        "icu 58.*",
+        "jemalloc ==4.5.0",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib 1.2.8*"
+      ]
+    },
+    "salmon-0.9.1-0.tar.bz2": {
+      "depends": [
+        "boost 1.64*",
+        "bzip2 1.0*",
+        "icu 58.*",
+        "jemalloc ==4.5.0",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib 1.2.8*"
+      ]
+    },
+    "salmon-0.9.1-1.tar.bz2": {
+      "depends": [
+        "boost 1.64*",
+        "bzip2 1.0*",
+        "icu 58.*",
+        "jemalloc ==4.5.0",
+        "libgcc",
+        "tbb <2021.0.0a0",
+        "zlib 1.2.11*"
+      ]
+    },
+    "salmon-1.0.0-hf69c8f4_0.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "icu >=64.2,<65.0a0",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.9,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-1.1.0-hf69c8f4_0.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "icu >=64.2,<65.0a0",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.9,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-1.2.0-hf69c8f4_0.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "icu >=64.2,<65.0a0",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2020.1,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-1.2.1-hf69c8f4_0.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "icu >=64.2,<65.0a0",
+        "jemalloc >=5.2.1",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2020.1,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-1.3.0-hf69c8f4_0.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "icu >=64.2,<65.0a0",
+        "jemalloc >=5.2.1",
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "tbb >=2020.1,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "salmon-1.4.0-hf69c8f4_0.tar.bz2": {
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "icu >=64.2,<65.0a0",
+        "jemalloc >=5.2.1",
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "tbb >=2020.2,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "shark-1.0.0-he513fc3_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.9,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "shark-1.0.0-he513fc3_1.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.9,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "shark-1.1.0-he513fc3_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "tbb >=2020.1,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "sibeliaz-1.2.2-he1b5a44_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "maf2synteny",
+        "spoa 4.0.3-0.*",
+        "tbb >=2020.2,<2021.0.0a0",
+        "twopaco"
+      ]
+    },
+    "sina-1.4.0-h4ef8376_0.tar.bz2": {
+      "depends": [
+        "arb-bio-tools",
+        "boost >=1.67.0,<1.67.1.0a0",
+        "libstdcxx-ng >=4.9",
+        "tbb >=2019.2,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "sina-1.5.0-hc7f9b0f_0.tar.bz2": {
+      "depends": [
+        "arb-bio-tools",
+        "boost-cpp >=1.68.0,<1.68.1.0a0",
+        "glib >=2.58.2,<3.0a0",
+        "libarbdb 6.0.6 haa8b8d8_8",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.3,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "sina-1.6.0-hc7f9b0f_0.tar.bz2": {
+      "depends": [
+        "arb-bio-tools",
+        "boost-cpp >=1.68.0,<1.68.1.0a0",
+        "glib >=2.58.3,<3.0a0",
+        "libarbdb 6.0.6 haa8b8d8_8",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2019.5,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "sina-1.6.1-h9aa86b4_0.tar.bz2": {
+      "depends": [
+        "arb-bio-tools",
+        "boost-cpp >=1.70.0,<1.70.1.0a0",
+        "glib >=2.58.3,<3.0a0",
+        "libarbdb 6.0.6 haa8b8d8_8",
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "tbb >=2020.1,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "sina-1.7.0-h9aa86b4_0.tar.bz2": {
+      "depends": [
+        "arb-bio-tools",
+        "boost-cpp >=1.70.0,<1.70.1.0a0",
+        "glib >=2.58.3,<3.0a0",
+        "libarbdb 6.0.6 haa8b8d8_8",
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "tbb >=2020.1,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "sina-1.7.1-h9aa86b4_0.tar.bz2": {
+      "depends": [
+        "arb-bio-tools",
+        "boost-cpp >=1.70.0,<1.70.1.0a0",
+        "glib >=2.58.3,<3.0a0",
+        "libarbdb 6.0.6 haa8b8d8_8",
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "tbb >=2020.1,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "sina-1.7.2-h9aa86b4_0.tar.bz2": {
+      "depends": [
+        "arb-bio-tools",
+        "boost-cpp >=1.70.0,<1.70.1.0a0",
+        "glib >=2.58.3,<3.0a0",
+        "libarbdb 6.0.6 haa8b8d8_8",
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "tbb >=2020.2,<2021.0.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ]
+    },
+    "spydrpick-1.0.0-h6bb024c_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "pthread-stubs",
+        "tbb >=2019.3,<2021.0.0a0"
+      ]
+    },
+    "spydrpick-1.1.0-h6bb024c_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "pthread-stubs",
+        "tbb >=2019.3,<2021.0.0a0"
+      ]
+    },
+    "spydrpick-1.1.1-h6bb024c_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "pthread-stubs",
+        "tbb >=2019.3,<2021.0.0a0"
+      ]
+    },
+    "spydrpick-1.2.0-h78a066a_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "libstdcxx-ng >=7.3.0",
+        "pthread-stubs",
+        "tbb >=2019.9,<2021.0.0a0"
+      ]
+    },
+    "swipe-2.0.12-0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "openmpi",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "swipe-2.0.12-h470a237_1.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=4.9",
+        "openmpi",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "swipe-2.1.0-h470a237_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=4.9",
+        "openmpi",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "swipe-2.1.0-h78e549b_1.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "openmpi >=4.0.4,<4.1.0a0",
+        "tbb >=2020.1,<2021.0.0a0"
+      ]
+    },
+    "twopaco-0.9.2-0.tar.bz2": {
+      "depends": [
+        "libgcc",
+        "tbb <2021.0.0a0"
+      ]
+    },
+    "twopaco-0.9.2-he1b5a44_3.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "tbb >=2020.1,<2021.0.0a0"
+      ]
+    },
+    "twopaco-0.9.2-hfc679d8_2.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=4.9",
+        "libstdcxx-ng >=4.9",
+        "tbb >=2019.1,<2021.0.0a0"
+      ]
+    },
+    "twopaco-0.9.4-he1b5a44_0.tar.bz2": {
+      "depends": [
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "tbb >=2020.2,<2021.0.0a0"
+      ]
+    }
+  },
+  "patch_instructions_version": 1,
+  "remove": [],
+  "revoke": []
+}
