@@ -109,6 +109,19 @@ def _gen_new_index(repodata, subdir):
                     #deps.append("tbb <2021.0.0a0")
                     break
 
+        # All R packages require a maximum version, so >=A.B,<A.C rather than >=A.B.D
+        if (record_name.startswith('bioconductor-') or record_name.startswith('r-')) and has_dep(record, "r-base"):
+            for i, dep in enumerate(deps):
+                if dep.startswith('r-base >=') and '<' not in dep:
+                    minVersion = dep.split('=')[1]
+                    _ = minVersion.split('.')
+                    if len(_) >= 2:
+                        minor = str(int(_[1]) + 1)
+                    minVersion = '.'.join([_[0], _[1]])
+                    maxVersion = '.'.join([_[0], minor])
+                    deps[i] = 'r-base >={},<{}'.format(minVersion, maxVersion)
+                    break
+
     return index
 
 
